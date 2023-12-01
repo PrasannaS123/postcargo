@@ -1,0 +1,54 @@
+.row {
+    background-color: var(--bs-light-green);
+
+}
+
+.card {
+
+    border-radius: 20px;
+    border: 0px;
+    box-shadow: 0px 2px 20px 0px var(--bs-shadow);
+
+}
+
+.user_name {
+    font-family: Roboto;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 18px;
+
+}
+
+.user_id {
+    font-family: Roboto;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 18px;
+
+}
+
+.btn-primary {
+    font-family: Roboto;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 18px;
+    width: 240px;
+    height: 38px;
+    border-radius: 12px;
+    background-color: var(--bs-orange);
+    border: 0px;
+}
+
+.active-link {
+    color: var(--bs-green);
+}
+
+.nav-link .text_route {
+    font-family: Roboto;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 18px;
+    color: var(--bs-light-black);
+}
+
+

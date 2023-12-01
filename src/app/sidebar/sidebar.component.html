@@ -1,0 +1,59 @@
+<div class="container-fluid">
+    <div class="row px-5 py-4">
+        <div class="col-xl-3">
+            <div class="card ">
+                <div class="card-body">
+                    <div class="user_image text-center">
+                        <img src="assets/images/user 1.png" class="img-fluid  mt-5 mb-4" alt="User Image">
+                        <p class="info user_name">John Doe</p>
+                        <p class="info user_id">ID : AZ100001</p>
+                        <button class="btn btn-primary my-4">Bəyan et</button>
+                    </div>
+                    <div class=" col-auto mx-3 ">
+                        <ul class="nav flex-column ">
+                            <li class="nav-item mb-1" routerLinkActive="active-link" [routerLinkActiveOptions]="{exact: true}">
+                                <a class="nav-link  "   routerLink="Xaricdəki_Ünvanım"  routerLinkActive="active-link"  >
+                                    <img src="assets/images/placeholder 1.png"  width="20px" height="20px"
+                                        style="vertical-align:top "><span class="ms-3 text_route  "
+                                        style="vertical-align:text-bottom">Xaricdəki Ünvanım</span>
+                                </a>
+                            </li>
+                            <li class="nav-item mb-1" routerLinkActive="active-link" [routerLinkActiveOptions]="{exact: true}">
+                                <a class="nav-link " routerLink="Bağlamalar"  routerLinkActive="active-link">
+                                    <img src="assets/images/shopping-bag (1) 1.png"  width="20px" height="20px"
+                                        style="vertical-align:top"><span class=" ms-3 text_route "
+                                        style="vertical-align:text-bottom; ">Bağlamalar</span>
+                                </a>
+                            </li>
+                            <li class="nav-item mb-1">
+                                <a class="nav-link " href="#">
+                                    <img src="assets/images/wallet 1.png" width="20px" height="20px"
+                                        style="vertical-align:top"><span class=" ms-3 text_route "
+                                        style="vertical-align:text-bottom">Pul kisəsi</span>
+                                </a>
+                            </li>
+                            <li class="nav-item mb-1">
+                                <a class="nav-link " href="#">
+                                    <img src="assets/images/edit 1.png" width="17px" height="17px"
+                                        style="vertical-align:top"><span class="ms-3 text_route "
+                                        style="vertical-align:text-bottom">Parametrlər</span>
+                                </a>
+                            </li>
+                            <li class="nav-item mb-1">
+                                <a class="nav-link " href="#">
+                                    <img src="assets/images/switch 1.png" width="18px" height="18px"
+                                        style="vertical-align:top"><span class=" ms-3  text_route"
+                                        style="vertical-align:text-bottom">Çıxış</span>
+                                </a>
+                            </li>
+
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-xl-9">
+            <router-outlet></router-outlet>
+        </div>
+    </div>
+</div>

@@ -1,1 +1,48 @@
-/* You can add global styles to this file, and also import other style files */
+:root {
+    --bs-warning: rgba(3, 128, 110, 1);
+    --bs-primary: rgba(255, 255, 255, 1);
+    --bs-info: rgba(255, 255, 255, 0.47);
+    --bs-black: rgba(0, 0, 0, 1);
+    --bs-light-green: rgba(238, 255, 252, 1);
+    --bs-orange: rgba(250, 124, 3, 1);
+    --bs-green: rgba(3, 128, 110, 1);
+    --bs-shadow: rgba(0, 0, 0, 0.15);
+    --bs-light-black: rgba(68, 68, 68, 1);;
+    --bs-border:  rgba(3, 128, 110, 0.2);
+}
+
+.primary {
+    color: var(--bs-warning);
+}
+
+.secondary {
+    color: var(--bs-primary);
+}
+
+.danger {
+    color: var(--bs-info);
+}
+
+.info {
+    color: var(--bs-black);
+}
+
+.success {
+    color: var(--bs-light-green);
+}
+
+.warning {
+    color: var(--bs-orange);
+}
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Roboto, "Helvetica Neue", sans-serif;
+}

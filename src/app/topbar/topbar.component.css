@@ -1,0 +1,13 @@
+nav{
+    background-color: var(--bs-warning);
+    
+}
+.nav-link{
+    color: var(--bs-primary);
+}
+.text_num{
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    line-height: 17.58px;
+    color: var(--bs-primary);
+}
