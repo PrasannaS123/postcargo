@@ -33,6 +33,7 @@
     position: absolute;
     top: 43px;
     right: 20px;
+    cursor: pointer;
 }
 
 .heading {
@@ -41,4 +42,11 @@
     font-weight: 400;
     line-height: 29px;
     color: var(--bs-warning);
+
+}
+
+.for_border{
+    border-bottom: 3px solid var(--bs-orange);
+    
+  
 }

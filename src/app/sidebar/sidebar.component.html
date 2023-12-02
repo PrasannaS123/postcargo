@@ -3,24 +3,35 @@
         <div class="col-xl-3">
             <div class="card ">
                 <div class="card-body">
-                    <div class="user_image text-center">
+                    <div class="user_image text-center ">
                         <img src="assets/images/user 1.png" class="img-fluid  mt-5 mb-4" alt="User Image">
                         <p class="info user_name">John Doe</p>
-                        <p class="info user_id">ID : AZ100001</p>
-                        <button class="btn btn-primary my-4">Bəyan et</button>
+                        <p class="info user_id d-flex justify-content-center align-items-center " #fullNameInput1>
+                            ID: AZ100001
+                            <span class="ms-2">
+                                <img src="assets/images/copy 1.png" (click)="copyValue(fullNameInput1)" alt="Copy Image"
+                                    class="img-fluid copy " width="20px" height="20px">
+                            </span>
+                        </p>
+                        <button class="btn btn-primary my-3 ">
+                            Bəyan et
+                        </button>
+
                     </div>
-                    <div class=" col-auto mx-3 ">
+                    <div class=" col-auto mx-3 my-2">
                         <ul class="nav flex-column ">
-                            <li class="nav-item mb-1" routerLinkActive="active-link" [routerLinkActiveOptions]="{exact: true}">
-                                <a class="nav-link  "   routerLink="Xaricdəki_Ünvanım"  routerLinkActive="active-link"  >
-                                    <img src="assets/images/placeholder 1.png"  width="20px" height="20px"
+                            <li class="nav-item mb-1" routerLinkActive="active-link"
+                                [routerLinkActiveOptions]="{exact: true}">
+                                <a class="nav-link  " routerLink="Xaricdəki_Ünvanım" routerLinkActive="active-link">
+                                    <img src="assets/images/placeholder 1.png" width="20px" height="20px"
                                         style="vertical-align:top "><span class="ms-3 text_route  "
                                         style="vertical-align:text-bottom">Xaricdəki Ünvanım</span>
                                 </a>
                             </li>
-                            <li class="nav-item mb-1" routerLinkActive="active-link" [routerLinkActiveOptions]="{exact: true}">
-                                <a class="nav-link " routerLink="Bağlamalar"  routerLinkActive="active-link">
-                                    <img src="assets/images/shopping-bag (1) 1.png"  width="20px" height="20px"
+                            <li class="nav-item mb-1" routerLinkActive="active-link"
+                                [routerLinkActiveOptions]="{exact: true}">
+                                <a class="nav-link " routerLink="Bağlamalar" routerLinkActive="active-link">
+                                    <img src="assets/images/shopping-bag (1) 1.png" width="20px" height="20px"
                                         style="vertical-align:top"><span class=" ms-3 text_route "
                                         style="vertical-align:text-bottom; ">Bağlamalar</span>
                                 </a>

@@ -1,67 +1,68 @@
 <div class="card card-height-100">
     <div class="card-body">
-        <p class="heading  my-3 mx-4">Xaricdəki Ünvanım</p>
-        <form action="#" class="py-3 px-5 m-0">
+        <p class="heading  px-lg-3 pt-lg-4 pb-lg-2 p-sm-1 py-1 m-0">Xaricdəki Ünvanım</p>
+        <span class="position-absolute mx-lg-3 mx-sm-1 for_border" style="width: 50px;"></span>
+        <form action="#" class="px-lg-4 pt-lg-5 pt-3" >
             <div class="row g-3">
-                <div class="col-sm-3 copy_div  pb-3 px-2">
+                <div class="col-sm-3 copy_div pb-3 px-2 ">
                     <label for="Tam Adı" class="form-label">Tam Adı</label>
-                    <input type="text" class="form-control custom-input" value="John Doe">
-                    <img src="assets/images/copy 1.png" alt="Copy Image" class="img-fluid copy" width="20px"
+                    <input type="text"  #fullNameInput1 class="form-control custom-input" value="John Doe">
+                    <img src="assets/images/copy 1.png" (click)="copyValue(fullNameInput1.value)" alt="Copy Image" class="img-fluid copy" width="20px"
                         height="20px">
                 </div>
-                <div class="col-sm-9 copy_div  pb-3 px-2">
+                <div class="col-sm-9 copy_div  pb-3 px-2"> 
                     <label for="Ünvan" class="form-label">Ünvan</label>
-                    <input type="text" class="form-control" value="AZ100001, Alibeykoy Mah. Ataturk Cd. No:135 / 2">
-                    <img src="assets/images/copy 1.png" alt="Copy Image" class="img-fluid copy" width="20px"
+                    <input type="text" #fullNameInput2 class="form-control" value="AZ100001, Alibeykoy Mah. Ataturk Cd. No:135 / 2">
+                    <img src="assets/images/copy 1.png" (click)="copyValue(fullNameInput2.value)" alt="Copy Image" class="img-fluid copy" width="20px"
                         height="20px">
                 </div>
                 <div class="col-sm-4 copy_div  pb-3 px-2">
                     <label for="Rayon" class="form-label">Rayon</label>
-                    <input type="text" class="form-control" value="Eyüpsultan">
-                    <img src="assets/images/copy 1.png" alt="Copy Image" class="img-fluid copy" width="20px"
+                    <input type="text" #fullNameInput3 class="form-control" value="Eyüpsultan">
+                    <img src="assets/images/copy 1.png" (click)="copyValue(fullNameInput3.value)" alt="Copy Image" class="img-fluid copy" width="20px"
                         height="20px">
                 </div>
-                <div class="col-sm-4 copy_div   pb-3 px-2">
+                <div class="col-sm-4 copy_div pb-3 px-2">
                     <label for="Məhəllə" class="form-label">Məhəllə</label>
-                    <input type="text" class="form-control" value="Alibeyköy Mah.">
-                    <img src="assets/images/copy 1.png" alt="Copy Image" class="img-fluid copy" width="20px"
+                    <input type="text" #fullNameInput4 class="form-control" value="Alibeyköy Mah.">
+                    <img src="assets/images/copy 1.png" (click)="copyValue(fullNameInput4.value)" alt="Copy Image" class="img-fluid copy" width="20px"
                         height="20px">
                 </div>
 
                 <div class="col-sm-4   copy_div  pb-3 px-2">
                     <label for="Mobil nömrə" class="form-label">Mobil nömrə</label>
-                    <input type="text" class="form-control" value="*****">
-                    <img src="assets/images/copy 1.png" alt="Copy Image" class="img-fluid copy" width="20px"
+                    <input type="text" #fullNameInput5 class="form-control" value="*****">
+                    <img src="assets/images/copy 1.png" (click)="copyValue(fullNameInput5.value)" alt="Copy Image" class="img-fluid copy" width="20px"
                         height="20px">
                 </div>
                 <div class="col-sm-4  copy_div  pb-3 px-2">
                     <label for="şəhər" class="form-label">şəhər</label>
-                    <input type="text" class="form-control" value="Istanbul">
-                    <img src="assets/images/copy 1.png" alt="Copy Image" class="img-fluid copy" width="20px"
+                    <input type="text" #fullNameInput6 class="form-control" value="Istanbul">
+                    <img src="assets/images/copy 1.png" (click)="copyValue(fullNameInput6.value)" alt="Copy Image" class="img-fluid copy" width="20px"
                         height="20px">
                 </div>
                 <div class="col-sm-4  copy_div  pb-3 px-2">
                     <label for="Poçt Kodu" class="form-label">Poçt Kodu</label>
-                    <input type="number" class="form-control" value="34060">
-                    <img src="assets/images/copy 1.png" alt="Copy Image" class="img-fluid copy" width="20px"
+                    <input type="text" #fullNameInput7 class="form-control" value="34060">
+                    <img src="assets/images/copy 1.png" (click)="copyValue(fullNameInput7.value)" alt="Copy Image" class="img-fluid copy" width="20px"
                         height="20px">
                 </div>
                 <div class="col-sm-4  copy_div  pb-3 px-2">
                     <label for="Vergi Nömrəsi" class="form-label">Vergi Nömrəsi</label>
-                    <input type="number" class="form-control" value="28135930832">
-                    <img src="assets/images/copy 1.png" alt="Copy Image" class="img-fluid copy" width="20px"
+                    <input type="text" #fullNameInput8 class="form-control" value="28135930832">
+                    <img src="assets/images/copy 1.png" (click)="copyValue(fullNameInput8.value)" alt="Copy Image" class="img-fluid copy" width="20px"
                         height="20px">
                 </div>
                 <div class="col-sm-4  copy_div  pb-3 px-2">
                     <label for="Şirkət Adı" class="form-label">Şirkət Adı</label>
-                    <input type="text" class="form-control" value="AzPost Cargo">
-                    <img src="assets/images/copy 1.png" alt="Copy Image" class="img-fluid copy" width="20px"
+                    <input type="text" #fullNameInput9 class="form-control" value="AzPost Cargo">
+                    <img src="assets/images/copy 1.png" (click)="copyValue(fullNameInput9.value)" alt="Copy Image" class="img-fluid copy" width="20px"
                         height="20px">
                 </div>
                 <div class="col-sm-4  copy_div  pb-3 px-2">
                     <label for="Teslim Alan kisi" class="form-label">Teslim Alan kisi</label>
-                    <input type="text" class="form-control" value="Azerpost LLC">
-                    <img src="assets/images/copy 1.png" alt="Copy Image" class="img-fluid copy" width="20px"
+                    <input type="text" #fullNameInput10 class="form-control" value="Azerpost LLC">
+                    <img src="assets/images/copy 1.png" (click)="copyValue(fullNameInput10.value)" alt="Copy Image" class="img-fluid copy" width="20px"
                         height="20px">
                 </div>
             </div>

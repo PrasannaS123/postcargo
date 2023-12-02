@@ -51,4 +51,6 @@
     color: var(--bs-light-black);
 }
 
-
+.copy {
+    cursor: pointer;
+}
