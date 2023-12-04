@@ -19,4 +19,5 @@ export class SidebarComponent {
 
     document.body.removeChild(tempTextArea);
   }
+  
 }

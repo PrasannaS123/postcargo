@@ -8,13 +8,15 @@
     --bs-green: rgba(3, 128, 110, 1);
     --bs-shadow: rgba(0, 0, 0, 0.15);
     --bs-light-black: rgba(68, 68, 68, 1);
-    ;
+    
     --bs-border: rgba(3, 128, 110, 0.2);
     --bs-pale-green: rgba(102, 211, 196, 1);
     --bg-light-gray: rgba(157, 157, 157, 1);
     --bs-black-green: rgba(3, 128, 110, 0.15);
     --bs-light-lightGreen: rgba(220, 251, 245, 1);
     --bs-dark-green: rgba(2, 128, 109, 1);
+
+    
 }
 
 .primary {
@@ -51,9 +53,11 @@ body {
     padding: 0;
     box-sizing: border-box;
     font-family: Roboto, "Helvetica Neue", sans-serif;
+    overflow: auto;
 }
 
 input,
 select {
     box-shadow: none !important;
 }
+

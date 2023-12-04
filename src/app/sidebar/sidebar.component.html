@@ -1,6 +1,6 @@
 <div class="container-fluid">
     <div class="row px-5 py-4">
-        <div class="col-xl-3">
+        <div class="col-xl-3 mb-3 mb-xl-0">
             <div class="card ">
                 <div class="card-body">
                     <div class="user_image text-center ">
@@ -13,24 +13,22 @@
                                     class="img-fluid copy " width="20px" height="20px">
                             </span>
                         </p>
-                        <button class="btn btn-primary my-3 ">
+                        <button class="btn btn-primary my-3 w-100 ">
                             Bəyan et
                         </button>
 
                     </div>
                     <div class=" col-auto mx-3 my-2">
                         <ul class="nav flex-column ">
-                            <li class="nav-item mb-1" routerLinkActive="active-link"
-                                [routerLinkActiveOptions]="{exact: true}">
-                                <a class="nav-link  " routerLink="Xaricdəki_Ünvanım" routerLinkActive="active-link">
+                            <li class="nav-item mb-1"[routerLinkActive]="['active']" >
+                                <a class="nav-link " routerLink="Xaricdəki_Ünvanım"  >
                                     <img src="assets/images/placeholder 1.png" width="20px" height="20px"
-                                        style="vertical-align:top "><span class="ms-3 text_route  "
+                                        style="vertical-align:top "><span class="ms-3 text_route"
                                         style="vertical-align:text-bottom">Xaricdəki Ünvanım</span>
                                 </a>
                             </li>
-                            <li class="nav-item mb-1" routerLinkActive="active-link"
-                                [routerLinkActiveOptions]="{exact: true}">
-                                <a class="nav-link " routerLink="Bağlamalar" routerLinkActive="active-link">
+                            <li class="nav-item mb-1" [routerLinkActive]="['active']"  >
+                                <a class="nav-link " routerLink="Bağlamalar" >
                                     <img src="assets/images/shopping-bag (1) 1.png" width="20px" height="20px"
                                         style="vertical-align:top"><span class=" ms-3 text_route "
                                         style="vertical-align:text-bottom; ">Bağlamalar</span>

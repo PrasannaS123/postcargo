@@ -40,8 +40,9 @@ thead {
     font-weight: 700;
     line-height: 18px;
     vertical-align: middle;
-    border: 1px solid rgba(3, 128, 110, 0.15)
+
 }
+
 
 .table_heading {
     color: var(--bs-warning) !important;
@@ -51,37 +52,27 @@ thead {
 }
 
 ::ng-deep.table {
-    --bs-table-striped-bg: rgba(238, 255, 252, 0.75) !important;
+    --bs-table-striped-bg: rgba(255, 255, 255, 1) !important;
 }
 
 
-.custom-table tbody tr:nth-child(odd) {
-    --bs-table-striped-bg: red !important;
-}
-
-.custom-table tbody tr:nth-child(even) {
-    --bs-table-striped-bg: rgba(238, 255, 252, 0.75) !important;
-}
-
-table th:first-child {
-    border-radius: 12px 0 0 12px;
-   
+.table-striped>tbody>tr:nth-child(even)>td,
+.table-striped>tbody>tr:nth-child(even)>th {
+    background-color: rgba(238, 255, 252, 0.75);
 
 }
 
-table th:last-child {
-    border-radius: 0 12px 12px 0;
-    
-}
-table td:first-child {
-    border-radius: 12px 0 0 12px;
-   
-
+thead th:first-child,
+tbody td:first-child {
+    border-top-left-radius: 12px;
+    border-bottom-left-radius: 12px;
 }
 
-table td:last-child {
-    border-radius: 0 12px 12px 0;
-    
+
+thead th:last-child,
+tbody td:last-child {
+    border-top-right-radius: 12px;
+    border-bottom-right-radius: 12px;
 }
 
 table tbody tr td {
@@ -93,7 +84,6 @@ table tbody tr td {
     font-weight: 400;
     line-height: 18px;
     color: var(--bs-black);
-    
 }
 
 .btn-primary {
